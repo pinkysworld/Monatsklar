@@ -1,123 +1,200 @@
-<!doctype html>
-<html lang="de">
-<head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html><html lang="de"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#1F6F5C">
-<title>Monatsklar – Haushaltsbuch für Windows</title>
-<meta name="description" content="Monatsklar: Offline-Haushaltsbuch für Windows. Einmalkauf, kein Konto, keine Cloud. Budgets, Auswertungen, CSV-Import von Kontoauszügen. / Offline budget book for Windows.">
-<link rel="icon" href="favicon.png"><link rel="apple-touch-icon" href="img/logo.png">
-<link rel="stylesheet" href="style.css?v=1"><script src="lang.js"></script>
-</head>
-<body>
-<a class="skip" href="#main"><span data-l="de">Zum Inhalt</span><span data-l="en">Skip to content</span></a>
-<header class="top"><nav class="wrap" aria-label="Navigation">
-  <a class="brand" href="./"><img src="img/logo.png" alt="" width="36" height="36"><span>Monatsklar<small><span data-l="de">Haushaltsbuch für Windows</span><span data-l="en">Budget book for Windows</span></small></span></a>
-  <div class="links">
-    <a href="./#funktionen"><span data-l="de">Funktionen</span><span data-l="en">Features</span></a>
-    <a href="support.html"><span data-l="de">Hilfe &amp; Support</span><span data-l="en">Help &amp; support</span></a>
-    <button class="lang" type="button" onclick="toggleLang()" aria-label="Sprache wechseln / Switch language"><span data-l="de">EN</span><span data-l="en">DE</span></button>
-  </div>
-</nav></header>
+<meta name="theme-color" content="#F8F7F2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121D19" media="(prefers-color-scheme: dark)">
+<title>Monatsklar – Dein Offline-Haushaltsbuch für Windows</title>
+<meta name="description" content="Dein Monat. Klar im Blick. Monatsklar für Windows: Ausgaben, Budgets und Bankimport. Offline, optional verschlüsselt, einmal kaufen. Ohne Abo oder App-Konto.">
+<link rel="canonical" href="https://minh.systems/Monatsklar/">
+<link rel="alternate" hreflang="de" href="https://minh.systems/Monatsklar/?lang=de">
+<link rel="alternate" hreflang="en" href="https://minh.systems/Monatsklar/?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://minh.systems/Monatsklar/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Monatsklar">
+<meta property="og:title" content="Monatsklar – Dein Monat. Klar im Blick.">
+<meta property="og:description" content="Das Offline-Haushaltsbuch für Windows. Einmal kaufen. Ohne Abo, Konto oder Cloud.">
+<meta property="og:url" content="https://minh.systems/Monatsklar/">
+<meta property="og:image" content="https://minh.systems/Monatsklar/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Monatsklar – Dein Monat. Klar im Blick. Offline-Haushaltsbuch für Windows.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Monatsklar – Dein Monat. Klar im Blick.">
+<meta name="twitter:description" content="Dein Offline-Haushaltsbuch für Windows. Einmalkauf, kein Abo.">
+<meta name="twitter:image" content="https://minh.systems/Monatsklar/img/og.png">
+<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" href="img/logo.png">
+<link rel="stylesheet" href="style.css?v=2">
+<script src="lang.js"></script></head><body><a class="skip" href="#main"><span data-l="de">Zum Inhalt</span><span data-l="en">Skip to content</span></a>
+<header class="top"><nav class="wrap" aria-label="Navigation"><a class="brand" href="./"><img src="img/logo.png" alt="" width="40" height="40"><span>Monatsklar<small><span data-l="de">Das Haushaltsbuch für Windows</span><span data-l="en">The budget book for Windows</span></small></span></a>
+<div class="links"><a href="#funktionen"><span data-l="de">Funktionen</span><span data-l="en">Features</span></a><a href="support.html"><span data-l="de">Hilfe &amp; Support</span><span data-l="en">Help &amp; support</span></a><button class="lang" type="button" onclick="toggleLang()" aria-label="Sprache wechseln / Switch language"><span data-l="de">EN</span><span data-l="en">DE</span></button>
+</div></nav>
+</header>
 <main id="main">
-<section class="hero"><div class="wrap">
-  <span class="eyebrow"><span data-l="de">Einmal kaufen · ohne Abo · ohne Konto</span><span data-l="en">Buy once · no subscription · no account</span></span>
-  <h1><span data-l="de">Dein Monat. Klar im Blick.</span><span data-l="en">Your month. Crystal clear.</span></h1>
-  <p class="lead"><span data-l="de">Monatsklar ist das Haushaltsbuch für Windows, das deine Finanzen dort lässt, wo sie hingehören: auf deinem PC. Ausgaben erfassen, Kontoauszüge importieren, Budgets planen – ganz ohne Cloud und Bankzugang.</span><span data-l="en">Monatsklar is the budget book for Windows that keeps your finances where they belong: on your PC. Track spending, import bank statements, plan budgets – without cloud or bank logins.</span></p>
-  <!-- TODO Store-ID: Platzhalter "TODO-STORE-ID" durch die echte Microsoft-Store-ID (z. B. 9XXXXXXXXXXX) ersetzen. -->
-    <a class="msbadge" href="https://apps.microsoft.com/detail/TODO-STORE-ID" target="_blank" rel="noopener" aria-label="Im Microsoft Store herunterladen / Get it from Microsoft"><svg viewBox="0 0 230 52" role="img" aria-hidden="true"><rect width="230" height="52" rx="8" fill="#000"/><rect x="0.5" y="0.5" width="229" height="51" rx="7.5" fill="none" stroke="#A6A6A6"/><g transform="translate(16 13)"><rect width="12" height="12" fill="#F25022"/><rect x="14" width="12" height="12" fill="#7FBA00"/><rect y="14" width="12" height="12" fill="#00A4EF"/><rect x="14" y="14" width="12" height="12" fill="#FFB900"/></g><text x="56" y="22" fill="#fff" font-family="Segoe UI,system-ui,sans-serif" font-size="11"><tspan class="bde" data-l="de">Herunterladen bei</tspan><tspan data-l="en">Get it from</tspan></text><text x="56" y="40" fill="#fff" font-family="Segoe UI,system-ui,sans-serif" font-size="18" font-weight="600">Microsoft</text></svg></a>
-  <a class="btn alt" href="support.html#start"><span data-l="de">Erste Schritte</span><span data-l="en">Getting started</span></a>
-  <p class="note"><span data-l="de">Windows 10 (1809) oder neuer · Deutsch &amp; Englisch · Hell &amp; Dunkel</span><span data-l="en">Windows 10 (1809) or later · English &amp; German · Light &amp; dark</span></p>
-  <picture data-l="de"><source srcset="img/shots/de_dark_01-uebersicht.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/de_light_01-uebersicht.jpg" alt="Monatsklar Übersicht: Gesamtsaldo, Einnahmen, Ausgaben, Budgets und anstehende Buchungen" width="1400" height="788"></picture><picture data-l="en"><source srcset="img/shots/en_dark_01-uebersicht.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/en_light_01-uebersicht.jpg" alt="Monatsklar overview: balance, income, spending, budgets and upcoming items" width="1400" height="788"></picture>
-</div></section>
-
-<section class="band"><div class="wrap">
-  <h2 class="center"><span data-l="de">Ohne Abo, ohne Konto</span><span data-l="en">No subscription, no account</span></h2>
-  <div class="grid">
-    <div class="pill"><b><span data-l="de">Einmalkauf</span><span data-l="en">One-time purchase</span></b><span data-l="de">Einmal im Microsoft Store kaufen, dauerhaft nutzen. Keine In-App-Käufe, keine Werbung, kein Abo.</span><span data-l="en">Buy once in the Microsoft Store and keep it. No in-app purchases, no ads, no subscription.</span></div>
-    <div class="pill"><b><span data-l="de">Keine Anmeldung</span><span data-l="en">No sign-up</span></b><span data-l="de">Kein Benutzerkonto, keine E-Mail-Adresse. Installieren und loslegen.</span><span data-l="en">No user account, no email address. Install and go.</span></div>
-    <div class="pill"><b><span data-l="de">Keine Cloud, keine Bankanbindung</span><span data-l="en">No cloud, no bank link</span></b><span data-l="de">Monatsklar baut keine Internetverbindung auf. Deine Bankzugangsdaten braucht die App nie.</span><span data-l="en">Monatsklar never connects to the internet. It never needs your bank login.</span></div>
-    <div class="pill"><b><span data-l="de">Eine Datei, die dir gehört</span><span data-l="en">One file that's yours</span></b><span data-l="de">Dein Buch liegt in <code>Dokumente\Monatsklar</code> – sichern, verschieben, verschlüsseln, wie du willst.</span><span data-l="en">Your book lives in <code>Documents\Monatsklar</code> – back it up, move it, encrypt it as you like.</span></div>
-  </div>
-</div></section>
-
-<section id="funktionen"><div class="wrap">
-  <h2 class="center"><span data-l="de">Alles, was ein Haushaltsbuch braucht</span><span data-l="en">Everything a budget book needs</span></h2>
-  <p class="sub center"><span data-l="de">Schlank, schnell und komplett per Tastatur bedienbar.</span><span data-l="en">Lean, fast and fully keyboard operable.</span></p>
-  <div class="grid">
-<div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></div><h3><span data-l="de">Buchung in Sekunden</span><span data-l="en">Entries in seconds</span></h3><p data-l="de"><kbd>Strg</kbd>+<kbd>N</kbd>, Betrag, Enter. Empfänger werden vorgeschlagen, die passende Kategorie gleich mit. Beträge lassen sich aufteilen.</p><p data-l="en"><kbd>Ctrl</kbd>+<kbd>N</kbd>, amount, Enter. Payees are suggested along with their usual category. Amounts can be split.</p></div>
-<div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M16 12h2M3 9h18"/></svg></div><h3><span data-l="de">Mehrere Konten</span><span data-l="en">Multiple accounts</span></h3><p data-l="de">Girokonto, Bargeld, Sparkonto, Kreditkarte. Umbuchungen zwischen eigenen Konten zählen nicht als Ausgabe.</p><p data-l="en">Current account, cash, savings, credit card. Transfers between your own accounts don't count as spending.</p></div>
-<div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 20h16"/></svg></div><h3><span data-l="de">Kontoauszug importieren</span><span data-l="en">Import bank statements</span></h3><p data-l="de">CSV von Sparkasse, ING, DKB, comdirect, Volksbank und Raiffeisenbank wird erkannt, andere Banken ordnest du selbst zu. Duplikate werden übersprungen.</p><p data-l="en">CSV exports from Sparkasse, ING, DKB, comdirect, Volksbank and Raiffeisenbank are detected; map any other bank yourself. Duplicates are skipped.</p></div>
-<div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 18a8 8 0 1 1 16 0"/><path d="m12 18 4-5"/></svg></div><h3><span data-l="de">Monatsbudgets</span><span data-l="en">Monthly budgets</span></h3><p data-l="de">Pro Kategorie ein Budget – und sofort sehen, wie viel noch übrig ist. Auf Wunsch aus dem Durchschnitt vorgeschlagen.</p><p data-l="en">A budget per category – see instantly what is left. Optionally suggested from your average.</p></div>
-<div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10V8a3 3 0 0 1 3-3h12l-3-3m3 3-3 3M20 14v2a3 3 0 0 1-3 3H5l3 3m-3-3 3-3"/></svg></div><h3><span data-l="de">Wiederkehrende Buchungen</span><span data-l="en">Recurring items</span></h3><p data-l="de">Miete, Abos, Versicherungen, Gehalt: wöchentlich bis jährlich, fällige Posten werden beim Start automatisch gebucht.</p><p data-l="en">Rent, subscriptions, insurance, salary: weekly to yearly; due items are booked automatically at start.</p></div>
-<div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 20V10m7 10V4m7 16v-7"/></svg></div><h3><span data-l="de">Auswertung in Euro</span><span data-l="en">Reports in real amounts</span></h3><p data-l="de">Ausgaben nach Kategorie, Verlauf über 12 Monate, Sparquote – für Monat, Quartal oder Jahr. Export für Excel und Druckbericht.</p><p data-l="en">Spending by category, 12-month trend, savings rate – by month, quarter or year. Export for Excel and a printable report.</p></div>
-<div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 21V4m0 0h11l-2 4 2 4H5"/></svg></div><h3><span data-l="de">Sparziele</span><span data-l="en">Savings goals</span></h3><p data-l="de">Zielbetrag und Zieldatum festlegen – Monatsklar zeigt den Fortschritt und die nötige Monatsrate.</p><p data-l="en">Set a target amount and date – Monatsklar shows progress and the monthly amount needed.</p></div>
-<div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></div><h3><span data-l="de">Passwortschutz</span><span data-l="en">Password protection</span></h3><p data-l="de">Optional verschlüsselt mit AES-256. Ohne dein Passwort kann niemand die Datei lesen.</p><p data-l="en">Optional AES-256 encryption. Without your password, nobody can read the file.</p></div>
-<div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h11l3 3v15H5z"/><path d="M8 3v5h8M8 21v-7h8v7"/></svg></div><h3><span data-l="de">Tägliche Sicherung</span><span data-l="en">Daily backup</span></h3><p data-l="de">Beim Start wird automatisch gesichert (die letzten 14 Tage), Wiederherstellen mit wenigen Klicks.</p><p data-l="en">An automatic backup at start (last 14 days are kept); restore in a few clicks.</p></div>
-<div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20a6 6 0 0 1 12 0M16 5a3 3 0 0 1 0 6M21 20a6 6 0 0 0-4-5.6"/></svg></div><h3><span data-l="de">Gemeinsamer Haushalt</span><span data-l="en">Shared household</span></h3><p data-l="de">Buch auf NAS, Netzlaufwerk oder USB-Stick legen und auf beiden PCs öffnen – ganz ohne Cloud.</p><p data-l="en">Keep the book on a NAS, network drive or USB stick and open it on both PCs – no cloud needed.</p></div>
-<div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14A8 8 0 1 1 10 4a6 6 0 0 0 10 10z"/></svg></div><h3><span data-l="de">Hell &amp; Dunkel, DE &amp; EN</span><span data-l="en">Light &amp; dark, EN &amp; DE</span></h3><p data-l="de">Folgt Windows oder deiner Wahl. Mit Bildschirmleser nutzbar.</p><p data-l="en">Follows Windows or your choice. Screen-reader friendly.</p></div>
-<div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M7 14h10"/></svg></div><h3><span data-l="de">Tastenkürzel</span><span data-l="en">Keyboard shortcuts</span></h3><p data-l="de"><kbd>Strg</kbd>+<kbd>1</kbd>…<kbd>9</kbd> wechselt die Seiten, <kbd>Strg</kbd>+<kbd>F</kbd> springt zur Suche.</p><p data-l="en"><kbd>Ctrl</kbd>+<kbd>1</kbd>…<kbd>9</kbd> switches pages, <kbd>Ctrl</kbd>+<kbd>F</kbd> jumps to search.</p></div>
-  </div>
-</div></section>
-
-<section style="padding-top:0"><div class="wrap">
-  <div class="feature">
-    <picture data-l="de"><source srcset="img/shots/de_dark_02-buchungen.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/de_light_02-buchungen.jpg" alt="Buchungen erfassen und finden" width="1400" height="788" loading="lazy"></picture><picture data-l="en"><source srcset="img/shots/en_dark_02-buchungen.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/en_light_02-buchungen.jpg" alt="Add and find transactions" width="1400" height="788" loading="lazy"></picture>
-    <div class="txt"><h2><span data-l="de">Buchungen erfassen und finden</span><span data-l="en">Add and find transactions</span></h2><ul data-l="de"><li>Einnahme, Ausgabe oder Umbuchung</li><li>Suche nach Empfänger, Notiz, Kategorie oder Betrag</li><li>Filter nach Konto, Monat für Monat blättern</li><li>Betrag auf mehrere Kategorien aufteilen</li></ul><ul data-l="en"><li>Income, expense or transfer</li><li>Search by payee, note, category or amount</li><li>Filter by account, page month by month</li><li>Split an amount across categories</li></ul></div>
-  </div>
-  <div class="feature rev">
-    <picture data-l="de"><source srcset="img/shots/de_dark_03-budgets.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/de_light_03-budgets.jpg" alt="Budgets mit klarer Ampel" width="1400" height="788" loading="lazy"></picture><picture data-l="en"><source srcset="img/shots/en_dark_03-budgets.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/en_light_03-budgets.jpg" alt="Budgets at a glance" width="1400" height="788" loading="lazy"></picture>
-    <div class="txt"><h2><span data-l="de">Budgets mit klarer Ampel</span><span data-l="en">Budgets at a glance</span></h2><ul data-l="de"><li>Monatsbudget je Kategorie oder Hauptkategorie</li><li>„Noch … übrig“ bzw. „… über Budget“</li><li>Vorschlag aus dem Durchschnitt der letzten drei Monate</li></ul><ul data-l="en"><li>Monthly budget per category or parent category</li><li>“… left” or “… over budget”</li><li>Suggestions from your three-month average</li></ul></div>
-  </div>
-  <div class="feature">
-    <picture data-l="de"><source srcset="img/shots/de_dark_04-auswertung.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/de_light_04-auswertung.jpg" alt="Auswertung, die man versteht" width="1400" height="788" loading="lazy"></picture><picture data-l="en"><source srcset="img/shots/en_dark_04-auswertung.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/en_light_04-auswertung.jpg" alt="Reports that make sense" width="1400" height="788" loading="lazy"></picture>
-    <div class="txt"><h2><span data-l="de">Auswertung, die man versteht</span><span data-l="en">Reports that make sense</span></h2><ul data-l="de"><li>Ausgaben nach Kategorie in Euro und Prozent</li><li>Verlauf der letzten 12 Monate, Ø Einnahmen und Ausgaben, Sparquote</li><li>Zeitraum Monat, Quartal, Kalenderjahr oder letzte 12 Monate</li><li>Export für Excel (CSV) und Druckbericht zum Speichern als PDF</li></ul><ul data-l="en"><li>Spending by category in amounts and percent</li><li>12-month trend, average income and spending, savings rate</li><li>Month, quarter, calendar year or last 12 months</li><li>Export for Excel (CSV) and a printable report you can save as PDF</li></ul></div>
-  </div>
-  <div class="feature rev">
-    <picture data-l="de"><source srcset="img/shots/de_dark_07-import.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/de_light_07-import.jpg" alt="Kontoauszug per CSV" width="1400" height="788" loading="lazy"></picture><picture data-l="en"><source srcset="img/shots/en_dark_07-import.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/en_light_07-import.jpg" alt="Bank statements via CSV" width="1400" height="788" loading="lazy"></picture>
-    <div class="txt"><h2><span data-l="de">Kontoauszug per CSV</span><span data-l="en">Bank statements via CSV</span></h2><ul data-l="de"><li>Datei hineinziehen oder auswählen – Format wird erkannt</li><li>Vorschau prüfen, einzelne Zeilen abwählen oder zuordnen</li><li>Bereits importierte Buchungen werden übersprungen</li><li>Import-Regeln ordnen Kategorien künftig automatisch zu</li></ul><ul data-l="en"><li>Drag in or choose a file – the format is detected</li><li>Check the preview, deselect or categorise rows</li><li>Already imported entries are skipped</li><li>Import rules assign categories automatically next time</li></ul></div>
-  </div>
-  <div class="feature">
-    <picture data-l="de"><source srcset="img/shots/de_dark_05-wiederkehrend.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/de_light_05-wiederkehrend.jpg" alt="Fixkosten automatisch" width="1400" height="788" loading="lazy"></picture><picture data-l="en"><source srcset="img/shots/en_dark_05-wiederkehrend.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/en_light_05-wiederkehrend.jpg" alt="Fixed costs on autopilot" width="1400" height="788" loading="lazy"></picture>
-    <div class="txt"><h2><span data-l="de">Fixkosten automatisch</span><span data-l="en">Fixed costs on autopilot</span></h2><ul data-l="de"><li>Wöchentlich, monatlich, vierteljährlich, halbjährlich, jährlich</li><li>Feste Ausgaben und Einnahmen pro Monat auf einen Blick</li><li>Optional mit Enddatum</li></ul><ul data-l="en"><li>Weekly, monthly, quarterly, half-yearly, yearly</li><li>Fixed monthly spending and income at a glance</li><li>Optional end date</li></ul></div>
-  </div>
-  <div class="feature rev">
-    <picture data-l="de"><source srcset="img/shots/de_dark_06-sparziele.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/de_light_06-sparziele.jpg" alt="Sparziele mit Monatsrate" width="1400" height="788" loading="lazy"></picture><picture data-l="en"><source srcset="img/shots/en_dark_06-sparziele.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/en_light_06-sparziele.jpg" alt="Savings goals with a monthly amount" width="1400" height="788" loading="lazy"></picture>
-    <div class="txt"><h2><span data-l="de">Sparziele mit Monatsrate</span><span data-l="en">Savings goals with a monthly amount</span></h2><ul data-l="de"><li>Zielbetrag, bereits gespart, Zieldatum</li><li>Einzahlen und Entnehmen</li><li>Zeigt, wie viel du pro Monat zurücklegen musst</li></ul><ul data-l="en"><li>Target, amount saved, deadline</li><li>Deposit and withdraw</li><li>Shows how much to put aside each month</li></ul></div>
-  </div>
-</div></section>
-
-<section style="padding-top:0"><div class="wrap center">
-  <h2><span data-l="de">Deine Bank ist dabei</span><span data-l="en">Works with your bank</span></h2>
-  <p class="sub"><span data-l="de">Diese CSV-Formate erkennt Monatsklar automatisch. Für alle anderen Banken ordnest du Datum, Betrag, Empfänger und Verwendungszweck einmal zu und speicherst das als Importprofil.</span><span data-l="en">Monatsklar detects these CSV formats automatically. For any other bank, map date, amount, payee and purpose once and save it as an import profile.</span></p>
-  <div class="banks"><span>Sparkasse</span><span>ING</span><span>DKB</span><span>comdirect</span><span>Volksbank</span><span>Raiffeisenbank</span><span><span data-l="de">+ jede andere CSV</span><span data-l="en">+ any other CSV</span></span></div>
-</div></section>
-
-<section style="padding-top:0"><div class="wrap">
-  <h2 class="center"><span data-l="de">Mehr Bildschirmfotos</span><span data-l="en">More screenshots</span></h2>
-  <div class="gallery">
-    <figure data-l="de"><picture><source srcset="img/shots/de_dark_08-konten.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/de_light_08-konten.jpg" alt="Konten, Kategorien und Import-Regeln" width="1400" height="788" loading="lazy"></picture><figcaption>Konten, Kategorien und Import-Regeln</figcaption></figure>
-    <figure data-l="en"><picture><source srcset="img/shots/en_dark_08-konten.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/en_light_08-konten.jpg" alt="Accounts, categories and import rules" width="1400" height="788" loading="lazy"></picture><figcaption>Accounts, categories and import rules</figcaption></figure>
-    <figure data-l="de"><picture><source srcset="img/shots/de_dark_09-einstellungen.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/de_light_09-einstellungen.jpg" alt="Passwortschutz und automatische Sicherung" width="1400" height="788" loading="lazy"></picture><figcaption>Passwortschutz und automatische Sicherung</figcaption></figure>
-    <figure data-l="en"><picture><source srcset="img/shots/en_dark_09-einstellungen.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/en_light_09-einstellungen.jpg" alt="Password protection and automatic backup" width="1400" height="788" loading="lazy"></picture><figcaption>Password protection and automatic backup</figcaption></figure>
-    <figure data-l="de"><picture><source srcset="img/shots/de_dark_01-uebersicht.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/de_light_01-uebersicht.jpg" alt="Dein Monat auf einen Blick" width="1400" height="788" loading="lazy"></picture><figcaption>Dein Monat auf einen Blick</figcaption></figure>
-    <figure data-l="en"><picture><source srcset="img/shots/en_dark_01-uebersicht.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/en_light_01-uebersicht.jpg" alt="Your month at a glance" width="1400" height="788" loading="lazy"></picture><figcaption>Your month at a glance</figcaption></figure>
-    <figure data-l="de"><picture><source srcset="img/shots/de_dark_03-budgets.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/de_light_03-budgets.jpg" alt="Wie viel ist noch übrig?" width="1400" height="788" loading="lazy"></picture><figcaption>Wie viel ist noch übrig?</figcaption></figure>
-    <figure data-l="en"><picture><source srcset="img/shots/en_dark_03-budgets.jpg" media="(prefers-color-scheme: dark)"><img class="shot" src="img/shots/en_light_03-budgets.jpg" alt="How much is left?" width="1400" height="788" loading="lazy"></picture><figcaption>How much is left?</figcaption></figure>
-  </div>
-</div></section>
-
-<section class="center" style="padding-top:10px"><div class="wrap">
-  <h2><span data-l="de">Bereit für einen klaren Monat?</span><span data-l="en">Ready for a clear month?</span></h2>
-  <!-- TODO Store-ID (siehe oben) -->
-    <a class="msbadge" href="https://apps.microsoft.com/detail/TODO-STORE-ID" target="_blank" rel="noopener" aria-label="Im Microsoft Store herunterladen / Get it from Microsoft"><svg viewBox="0 0 230 52" role="img" aria-hidden="true"><rect width="230" height="52" rx="8" fill="#000"/><rect x="0.5" y="0.5" width="229" height="51" rx="7.5" fill="none" stroke="#A6A6A6"/><g transform="translate(16 13)"><rect width="12" height="12" fill="#F25022"/><rect x="14" width="12" height="12" fill="#7FBA00"/><rect y="14" width="12" height="12" fill="#00A4EF"/><rect x="14" y="14" width="12" height="12" fill="#FFB900"/></g><text x="56" y="22" fill="#fff" font-family="Segoe UI,system-ui,sans-serif" font-size="11"><tspan class="bde" data-l="de">Herunterladen bei</tspan><tspan data-l="en">Get it from</tspan></text><text x="56" y="40" fill="#fff" font-family="Segoe UI,system-ui,sans-serif" font-size="18" font-weight="600">Microsoft</text></svg></a>
-  <p class="disclaimer"><span data-l="de">Monatsklar zeichnet auf und rechnet zusammen. Es ist keine Finanz-, Steuer- oder Anlageberatung. Bankformate können sich ändern; dann hilft die manuelle Spaltenzuordnung.</span><span data-l="en">Monatsklar records and adds up. It is not financial, tax or investment advice. Bank formats may change; manual column mapping then helps.</span></p>
-</div></section>
+<section class="hero">
+<div class="wrap hero-grid">
+<div class="hero-copy">
+<p class="eyebrow"><span class="status-dot"></span><span data-l="de">Weniger Aufwand. Mehr Überblick.</span><span data-l="en">Less effort. More clarity.</span></p>
+<h1><span data-l="de">Dein Monat.<br><em>Klar im Blick.</em></span><span data-l="en">Your month.<br><em>All clear.</em></span></h1>
+<p class="lead"><span data-l="de">Wissen, was reinkommt. Sehen, was übrig bleibt. Dein Haushaltsbuch für Windows – mit Budgets, Bankimport und einem guten Gefühl für deine Finanzen.</span><span data-l="en">Know what comes in. See what’s left. Your budget book for Windows – with budgets, bank imports and a clearer view of your finances.</span></p>
+<div class="actions"><a class="msbadge" href="https://apps.microsoft.com/detail/TODO-STORE-ID" target="_blank" rel="noopener"><svg viewBox="0 0 26 26" aria-hidden="true"><path fill="#F25022" d="M0 0h12v12H0z"/><path fill="#7FBA00" d="M14 0h12v12H14z"/><path fill="#00A4EF" d="M0 14h12v12H0z"/><path fill="#FFB900" d="M14 14h12v12H14z"/></svg><span><small><span data-l="de">Herunterladen bei</span><span data-l="en">Get it from</span></small><strong>Microsoft</strong></span></a><a class="text-link" href="#einblicke"><span data-l="de">App entdecken</span><span data-l="en">Explore the app</span> <span aria-hidden="true">↗</span></a>
+</div>
+<p class="note"><span data-l="de">Einmalkauf · Kein Abo · Kein App-Konto</span><span data-l="en">One-time purchase · No subscription · No app account</span></p>
+</div>
+<div class="hero-visual">
+<div class="visual-orbit" aria-hidden="true">
+</div>
+<div class="app-window">
+<div class="window-bar"><span><img src="img/logo.png" width="16" height="16" alt=""> Monatsklar</span><span class="window-controls" aria-hidden="true">─ &nbsp; □ &nbsp; ×</span>
+</div>
+<picture data-l="de"><source media="(prefers-color-scheme: dark)" srcset="img/de-08-dark-mode.webp"><img src="img/de-01-overview.webp" alt="Monatsklar: Monatsübersicht mit Einnahmen, Ausgaben und Budgets" width="1440" height="810" fetchpriority="high" decoding="async">
+</picture>
+<picture data-l="en"><source media="(prefers-color-scheme: dark)" srcset="img/en-08-dark-mode.webp"><img src="img/en-01-overview.webp" alt="Monatsklar: monthly overview with income, spending and budgets" width="1440" height="810" fetchpriority="high" decoding="async">
+</picture>
+</div>
+<div class="local-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2"/></svg><div><strong><span data-l="de">Deine Finanzen. Dein PC.</span><span data-l="en">Your finances. Your PC.</span></strong><span><span data-l="de">Ganz ohne Cloud.</span><span data-l="en">Entirely cloud-free.</span></span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="wrap">
+<ul class="trust"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8a13 13 0 0 1 16 0M7 12a8 8 0 0 1 10 0m-7 4a3 3 0 0 1 4 0M3 3l18 18"/></svg><span data-l="de">100 % offline</span><span data-l="en">100% offline</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><span data-l="de">Optional verschlüsselt</span><span data-l="en">Optional encryption</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg><span data-l="de">Einmal kaufen</span><span data-l="en">Buy once</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a18 18 0 0 1 0 18 18 18 0 0 1 0-18"/></svg><span data-l="de">10 Sprachen</span><span data-l="en">10 languages</span></li>
+</ul>
+</div>
+<section id="funktionen">
+<div class="wrap">
+<div class="section-heading">
+<p class="kicker"><span data-l="de">Für deinen Alltag gemacht</span><span data-l="en">Made for everyday life</span></p>
+<h2><span data-l="de">Alles da.<br>Alles schön übersichtlich.</span><span data-l="en">Everything you need.<br>Clearly organised.</span></h2><p><span data-l="de">Vom ersten Kaffee bis zum großen Sparziel. Monatsklar bringt Ordnung in deine Zahlen, ohne deinen Alltag komplizierter zu machen.</span><span data-l="en">From your first coffee to your next big savings goal. Bring order to your numbers without complicating your day.</span></p>
+</div>
+<div class="feature-grid">
+<article class="feature-card">
+<div class="card-top"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span><span class="card-number">01</span>
+</div>
+<h3><span data-l="de">Schnell erfasst. Gut sortiert.</span><span data-l="en">Quick entries. Neatly sorted.</span></h3><p><span data-l="de">Buchungen per Tastatur erfassen, Beträge in Teilbuchungen aufteilen und mit eigenen Kategorien und Unterkategorien ordnen.</span><span data-l="en">Add entries with your keyboard, split amounts across categories and organise them with your own categories and subcategories.</span></p>
+</article>
+<article class="feature-card">
+<div class="card-top"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 18a8 8 0 1 1 16 0m-8 0 4-6"/></svg></span><span class="card-number">02</span>
+</div>
+<h3><span data-l="de">Dein Budget hat einen Plan.</span><span data-l="en">Give your budget a plan.</span></h3><p><span data-l="de">Monatsbudgets zeigen, was noch übrig ist. Wiederkehrende Buchungen und Sparziele behalten auch das Morgen im Blick.</span><span data-l="en">Monthly budgets show what’s left. Recurring entries and savings goals help you keep an eye on what’s next.</span></p>
+</article>
+<article class="feature-card">
+<div class="card-top"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M3 10h18m-13 5h3"/></svg></span><span class="card-number">03</span>
+</div>
+<h3><span data-l="de">Alle Konten an einem Ort.</span><span data-l="en">All your accounts together.</span></h3><p><span data-l="de">Girokonto, Bargeld, Sparen und Kreditkarten. Wähle die Währung für dein Buch; Umbuchungen bleiben von Ausgaben getrennt.</span><span data-l="en">Current accounts, cash, savings and credit cards. Choose one currency for your book; transfers stay separate from expenses.</span></p>
+</article>
+<article class="feature-card">
+<div class="card-top"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 20V12m7 8V4m7 16V8"/></svg></span><span class="card-number">04</span>
+</div>
+<h3><span data-l="de">Zahlen, die etwas erzählen.</span><span data-l="en">Numbers that make sense.</span></h3><p><span data-l="de">Kategorien, Monatsverlauf und Sparquote verstehen. Daten als CSV exportieren oder den Druckbericht als PDF speichern.</span><span data-l="en">Understand categories, monthly trends and your savings rate. Export CSV files or save the printable report as a PDF.</span></p>
+</article>
+</div>
+</div>
+</section>
+<section id="einblicke" class="showcase">
+<div class="wrap">
+<div class="section-heading inline-heading"><div>
+<p class="kicker"><span data-l="de">Ein Blick in Monatsklar</span><span data-l="en">Meet Monatsklar</span></p>
+<h2><span data-l="de">Weniger Tabellengefühl.<br>Mehr Durchblick.</span><span data-l="en">Less spreadsheet.<br>More perspective.</span></h2>
+</div><p><span data-l="de">Eine ruhige Oberfläche, die sich auf das Wesentliche konzentriert: deinen Monat.</span><span data-l="en">A calm workspace that focuses on what matters: your month.</span></p>
+</div>
+<div class="gallery-tabs" role="tablist" aria-label="App-Ansichten / App views"><button type="button" role="tab" id="tab-0" aria-controls="panel-0" aria-selected="true" tabindex="0" onclick="selectView(0)"><span data-l="de">Übersicht</span><span data-l="en">Overview</span></button><button type="button" role="tab" id="tab-1" aria-controls="panel-1" aria-selected="false" tabindex="-1" onclick="selectView(1)"><span data-l="de">Bankimport</span><span data-l="en">Bank import</span></button><button type="button" role="tab" id="tab-2" aria-controls="panel-2" aria-selected="false" tabindex="-1" onclick="selectView(2)"><span data-l="de">Budgets</span><span data-l="en">Budgets</span></button><button type="button" role="tab" id="tab-3" aria-controls="panel-3" aria-selected="false" tabindex="-1" onclick="selectView(3)"><span data-l="de">Auswertung</span><span data-l="en">Reports</span></button>
+</div>
+<div class="gallery-panel" role="tabpanel" id="panel-0" aria-labelledby="tab-0" tabindex="0" ><figure>
+<div class="gallery-window">
+<picture data-l="de"><img src="img/de-01-overview.webp" alt="Monatsklar – Übersicht" width="1440" height="810" loading="lazy" decoding="async">
+</picture>
+<picture data-l="en"><img src="img/en-01-overview.webp" alt="Monatsklar – Overview" width="1440" height="810" loading="lazy" decoding="async">
+</picture>
+</div><figcaption><span><span data-l="de">Der ganze Monat auf einen Blick.</span><span data-l="en">Your whole month at a glance.</span></span><span class="demo-label"><span data-l="de">Beispieldaten · Helles App-Design</span><span data-l="en">Demo data · Light app theme</span></span></figcaption></figure>
+</div>
+<div class="gallery-panel" role="tabpanel" id="panel-1" aria-labelledby="tab-1" tabindex="0" hidden><figure>
+<div class="gallery-window">
+<picture data-l="de"><img src="img/de-02-csv-import.webp" alt="Monatsklar – Bankimport" width="1440" height="810" loading="lazy" decoding="async">
+</picture>
+<picture data-l="en"><img src="img/en-02-csv-import.webp" alt="Monatsklar – Bank import" width="1440" height="810" loading="lazy" decoding="async">
+</picture>
+</div><figcaption><span><span data-l="de">Datei auswählen. Vorschau prüfen. Fertig.</span><span data-l="en">Choose a file. Check the preview. Done.</span></span><span class="demo-label"><span data-l="de">Beispieldaten · Helles App-Design</span><span data-l="en">Demo data · Light app theme</span></span></figcaption></figure>
+</div>
+<div class="gallery-panel" role="tabpanel" id="panel-2" aria-labelledby="tab-2" tabindex="0" hidden><figure>
+<div class="gallery-window">
+<picture data-l="de"><img src="img/de-03-budgets.webp" alt="Monatsklar – Budgets" width="1440" height="810" loading="lazy" decoding="async">
+</picture>
+<picture data-l="en"><img src="img/en-03-budgets.webp" alt="Monatsklar – Budgets" width="1440" height="810" loading="lazy" decoding="async">
+</picture>
+</div><figcaption><span><span data-l="de">Ein klares Limit für jede Kategorie.</span><span data-l="en">A clear limit for every category.</span></span><span class="demo-label"><span data-l="de">Beispieldaten · Helles App-Design</span><span data-l="en">Demo data · Light app theme</span></span></figcaption></figure>
+</div>
+<div class="gallery-panel" role="tabpanel" id="panel-3" aria-labelledby="tab-3" tabindex="0" hidden><figure>
+<div class="gallery-window">
+<picture data-l="de"><img src="img/de-05-reports.webp" alt="Monatsklar – Auswertung" width="1440" height="810" loading="lazy" decoding="async">
+</picture>
+<picture data-l="en"><img src="img/en-05-reports.webp" alt="Monatsklar – Reports" width="1440" height="810" loading="lazy" decoding="async">
+</picture>
+</div><figcaption><span><span data-l="de">Verstehen, wohin dein Geld geht.</span><span data-l="en">Understand where your money goes.</span></span><span class="demo-label"><span data-l="de">Beispieldaten · Helles App-Design</span><span data-l="en">Demo data · Light app theme</span></span></figcaption></figure>
+</div>
+<p class="gallery-note"><span data-l="de">Hell oder dunkel? Die App folgt Windows – oder deiner Wahl.</span><span data-l="en">Light or dark? The app follows Windows – or your preference.</span></p>
+</div>
+</section>
+<section id="bankimport">
+<div class="wrap import-grid"><div>
+<p class="kicker"><span data-l="de">Deine Bank. Dein Import.</span><span data-l="en">Your bank. Your import.</span></p>
+<h2><span data-l="de">Kontoauszüge rein.<br>Überblick raus.</span><span data-l="en">Statements in.<br>Clarity out.</span></h2>
+<p class="section-copy"><span data-l="de">Exportiere deine Umsätze als CSV und importiere sie lokal. Kein Bank-Login, keine direkte Bankverbindung. Einmal zugeordnet, kannst du die Einstellungen als Importprofil speichern.</span><span data-l="en">Export your transactions as CSV and import them locally. No bank login or direct bank connection. Save your column mappings as an import profile for next time.</span></p><a class="text-link" href="support.html#import"><span data-l="de">So funktioniert der Import</span><span data-l="en">How importing works</span> <span aria-hidden="true">↗</span></a>
+</div>
+<div class="bank-card">
+<p class="kicker"><span data-l="de">Verifizierte CSV-Varianten</span><span data-l="en">Verified CSV variants</span></p>
+<div class="banks"><span>Sparkasse</span><span>ING</span><span>DKB</span><span>Volksbank / VR DE</span><span>Postbank</span><span>Commerzbank</span><span>Chase</span><span>Bank of America</span><span>Capital One</span><span>Lloyds</span><span>NatWest</span><span>Starling</span>
+</div>
+<h3><span data-l="de">+ jede Bank mit CSV-Export</span><span data-l="en">+ any bank with CSV export</span></h3><p><span data-l="de">Weitere Formate über manuelle Spaltenzuordnung und Importprofile. Je nach Datei kann eine Vorbereitung nötig sein.</span><span data-l="en">Use manual column mapping and import profiles for other formats. Some files may need preparation.</span></p>
+<p class="note"><span data-l="de">Erkennung gilt für bestimmte Exportvarianten: Chase Giro/Kreditkarte, Bank of America Giro, Capital One Kreditkarte. Regionale und neue Formate können abweichen. Vorschau, Datum, Vorzeichen und Währung immer prüfen. Keine Währungsumrechnung.</span><span data-l="en">Detection applies to specific export variants: Chase checking/credit card, Bank of America checking, Capital One credit card. Regional and new formats may differ. Always check the preview, dates, signs and currency. No currency conversion.</span></p>
+</div>
+</div>
+</section>
+<section class="privacy-section">
+<div class="wrap privacy-grid">
+<div class="privacy-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4 6v6c0 5 8 9 8 9s8-4 8-9V6z"/><path d="m8 12 3 3 5-6"/></svg>
+</div><div>
+<p class="kicker"><span data-l="de">Privat bleibt privat</span><span data-l="en">Private stays private</span></p>
+<h2><span data-l="de">Dein Haushaltsbuch<br>gehört dir.</span><span data-l="en">Your budget book<br>belongs to you.</span></h2><p><span data-l="de">Deine Datei bleibt auf deinem PC. Keine Cloud, keine Werbung, keine Telemetrie. Mit einem Passwort aktivierst du die optionale AES-256-Verschlüsselung. Automatische und manuelle Sicherungen helfen dir, deine Daten zu behalten.</span><span data-l="en">Your file stays on your PC. No cloud, advertising or telemetry. Set a password to enable optional AES-256 encryption. Automatic and manual backups help you keep your data.</span></p><a class="text-link" href="privacy.html"><span data-l="de">Mehr zum Datenschutz</span><span data-l="en">More about privacy</span> <span aria-hidden="true">↗</span></a>
+</div>
+</div>
+</section>
+<section id="kaufen">
+<div class="wrap">
+<div class="purchase-card"><div>
+<p class="kicker"><span data-l="de">Eine klare Entscheidung</span><span data-l="en">A clear choice</span></p>
+<h2><span data-l="de">Einmal kaufen.<br>Für immer nutzen.</span><span data-l="en">Buy once.<br>Keep using it.</span></h2><p><span data-l="de">Alle Funktionen inklusive. Kein Abo, keine In-App-Käufe, kein App-Konto. Den aktuellen Preis findest du im Microsoft Store.</span><span data-l="en">All features included. No subscription, in-app purchases or app account. Find the current price in the Microsoft Store.</span></p>
+</div>
+<div class="purchase-action"><img src="img/logo.png" width="80" height="80" alt="Monatsklar"><a class="msbadge" href="https://apps.microsoft.com/detail/TODO-STORE-ID" target="_blank" rel="noopener"><svg viewBox="0 0 26 26" aria-hidden="true"><path fill="#F25022" d="M0 0h12v12H0z"/><path fill="#7FBA00" d="M14 0h12v12H14z"/><path fill="#00A4EF" d="M0 14h12v12H0z"/><path fill="#FFB900" d="M14 14h12v12H14z"/></svg><span><small><span data-l="de">Herunterladen bei</span><span data-l="en">Get it from</span></small><strong>Microsoft</strong></span></a>
+<p class="note"><span data-l="de">Für Windows 10 (1809) und neuer</span><span data-l="en">For Windows 10 (1809) and later</span></p>
+</div>
+</div>
+<div class="language-note"><strong><span data-l="de">In deiner Sprache zu Hause.</span><span data-l="en">Right at home in your language.</span></strong><p><span data-l="de">Deutsch · Englisch · Französisch · Italienisch · Spanisch · Niederländisch · Polnisch · Portugiesisch · Japanisch · Schwedisch</span><span data-l="en">German · English · French · Italian · Spanish · Dutch · Polish · Portuguese · Japanese · Swedish</span></p>
+</div>
+</div>
+</section>
+<section class="faq-section">
+<div class="wrap faq-grid"><div>
+<p class="kicker"><span data-l="de">Noch eine Frage?</span><span data-l="en">A few more things</span></p>
+<h2><span data-l="de">Gut zu wissen.</span><span data-l="en">Good to know.</span></h2><a class="text-link" href="support.html"><span data-l="de">Zur ausführlichen Hilfe</span><span data-l="en">Read the full guide</span> <span aria-hidden="true">↗</span></a>
+</div><div>
+<details><summary><span data-l="de">Brauche ich Internet oder ein Konto?</span><span data-l="en">Do I need internet or an account?</span></summary><p><span data-l="de">Die App funktioniert offline und ohne App-Konto. Für Kauf und Installation über den Microsoft Store brauchst du eine Internetverbindung; gegebenenfalls ist ein Microsoft-Konto nötig.</span><span data-l="en">The app works offline without an app account. Buying and installing through the Microsoft Store needs internet access and may require a Microsoft account.</span></p>
+</details>
+<details><summary><span data-l="de">Verbindet sich Monatsklar mit meiner Bank?</span><span data-l="en">Does Monatsklar connect to my bank?</span></summary><p><span data-l="de">Nein. Du exportierst Umsätze bei deiner Bank als CSV und liest die Datei in Monatsklar ein. Bankzugangsdaten werden nicht benötigt.</span><span data-l="en">No. Export transactions from your bank as CSV, then import the file into Monatsklar. Your bank login is never needed.</span></p>
+</details>
+<details><summary><span data-l="de">Kann ich meine Daten wieder mitnehmen?</span><span data-l="en">Can I take my data with me?</span></summary><p><span data-l="de">Ja. Du kannst Buchungen als CSV exportieren, Berichte drucken oder als PDF speichern und deine Haushaltsbuch-Datei sichern. CSV-Exporte sind unverschlüsselt.</span><span data-l="en">Yes. Export entries as CSV, print reports or save them as PDF, and back up your book file. CSV exports are not encrypted.</span></p>
+</details>
+<details><summary><span data-l="de">Welche Währungen werden unterstützt?</span><span data-l="en">How do currencies work?</span></summary><p><span data-l="de">Die Währung ist pro Buch wählbar. Alle Konten und Buchungen in diesem Buch verwenden dieselbe Währung. Eine automatische Währungsumrechnung gibt es nicht.</span><span data-l="en">Choose one currency per book. All accounts and entries in that book use the same currency. There is no automatic currency conversion.</span></p>
+</details>
+</div>
+</div>
+</section>
 </main>
-<footer class="wrap">
-  <a href="./">Monatsklar</a>·<a href="support.html">Support</a>·<a href="privacy.html"><span data-l="de">Datenschutz</span><span data-l="en">Privacy</span></a>·<a href="impressum.html"><span data-l="de">Impressum</span><span data-l="en">Legal notice</span></a>
-  <p>© 2026 Minh Studios · Michel Nguyen</p>
-  <p><span data-l="de">Keine Cookies, keine Tracker, keine externen Skripte.</span><span data-l="en">No cookies, no trackers, no external scripts.</span></p>
-</footer>
-</body>
-</html>
+<footer>
+<div class="wrap footer-grid"><a class="brand" href="./"><img src="img/logo.png" width="32" height="32" alt=""><span>Monatsklar</span></a><div><a href="support.html"><span data-l="de">Hilfe &amp; Support</span><span data-l="en">Help &amp; support</span></a><a href="privacy.html"><span data-l="de">Datenschutz</span><span data-l="en">Privacy</span></a><a href="impressum.html"><span data-l="de">Impressum</span><span data-l="en">Legal notice</span></a>
+</div>
+</div>
+<div class="wrap footer-bottom"><span>© 2026 Monatsklar</span><span><span data-l="de">Aufzeichnen. Verstehen. Selbst entscheiden.</span><span data-l="en">Record. Understand. Decide for yourself.</span></span><p><span data-l="de">Monatsklar bietet keine Finanz-, Steuer- oder Anlageberatung.</span><span data-l="en">Monatsklar does not provide financial, tax or investment advice.</span></p>
+</div></footer></body></html>
