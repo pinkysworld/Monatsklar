@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#1F6F5C">
+<title>Haushaltsbuch mit CSV-Import: Bankumsätze importieren · Monatsklar</title>
+<meta name="description" content="Bankumsätze als CSV ins Haushaltsbuch importieren: verifizierte Formate von Sparkasse, ING, DKB, comdirect, Volksbank, Postbank, Commerzbank und PayPal, mit Exporthinweisen.">
+<link rel="canonical" href="https://minh.systems/Monatsklar/haushaltsbuch-csv-import.html">
+<link rel="alternate" hreflang="de" href="https://minh.systems/Monatsklar/haushaltsbuch-csv-import.html">
+<link rel="alternate" hreflang="en" href="https://minh.systems/Monatsklar/en/bank-csv-import-budget-app.html">
+<link rel="alternate" hreflang="x-default" href="https://minh.systems/Monatsklar/haushaltsbuch-csv-import.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Monatsklar">
+<meta property="og:locale" content="de_DE">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:title" content="Haushaltsbuch mit CSV-Import: Bankumsätze importieren · Monatsklar">
+<meta property="og:description" content="Bankumsätze als CSV ins Haushaltsbuch importieren: verifizierte Formate von Sparkasse, ING, DKB, comdirect, Volksbank, Postbank, Commerzbank und PayPal, mit Exporthinweisen.">
+<meta property="og:url" content="https://minh.systems/Monatsklar/haushaltsbuch-csv-import.html">
+<meta property="og:image" content="https://minh.systems/Monatsklar/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Monatsklar – Haushaltsbuch für Windows">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Haushaltsbuch mit CSV-Import: Bankumsätze importieren · Monatsklar">
+<meta name="twitter:description" content="Bankumsätze als CSV ins Haushaltsbuch importieren: verifizierte Formate von Sparkasse, ING, DKB, comdirect, Volksbank, Postbank, Commerzbank und PayPal, mit Exporthinweisen.">
+<meta name="twitter:image" content="https://minh.systems/Monatsklar/img/og.png">
+<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" href="img/logo.png">
+<link rel="stylesheet" href="style.css?v=3">
+<script src="site.js" defer></script>
+</head>
+<body class="document-page">
+<a class="skip" href="#main">Zum Inhalt</a>
+<header class="top"><nav aria-label="Navigation" class="wrap">
+<a class="brand" href="./"><img alt="" height="36" src="img/logo.png" width="36"/><span>Monatsklar<small>Haushaltsbuch für Windows</small></span></a>
+<div class="links">
+<a href="./#funktionen">Funktionen</a>
+<a href="support.html">Hilfe &amp; Support</a>
+<a class="lang" href="en/bank-csv-import-budget-app.html" hreflang="en" lang="en" aria-label="Switch to English">EN</a>
+</div>
+</nav></header>
+<main id="main">
+<div class="wrap doc">
+<div class="doc-head">
+<h1>Bankumsätze als CSV ins Haushaltsbuch importieren</h1>
+<p class="lead">Monatsklar verbindet sich nicht mit deiner Bank. Du exportierst Umsätze als CSV-Datei und liest sie lokal ein, ohne Online-Banking-Zugangsdaten.</p>
+</div>
+<section class="card doc-section"><h2>So läuft der Import</h2>
+<ol><li>Im Online-Banking im Browser die Umsätze als CSV exportieren (Zeitraum wählen, Export- oder Download-Funktion nutzen).</li>
+<li>In Monatsklar „Bank-Import“ öffnen (<kbd>Strg</kbd>+<kbd>8</kbd>) und die Datei hineinziehen.</li>
+<li>Wird das Format erkannt, meldet Monatsklar „Format erkannt“. Sonst ordnest du Datum und Betrag (optional Empfänger und Verwendungszweck) einmal zu und speicherst ein Importprofil.</li>
+<li>Zielkonto wählen, Vorschau prüfen, importieren. Bereits vorhandene Buchungen sind als „schon vorhanden“ markiert.</li></ol>
+</section>
+<section class="card doc-section"><h2>Verifizierte deutsche Formate</h2>
+<p>Für diese Banken und Dienste ist eine konkrete Exportvariante anhand einer veröffentlichten Beispieldatei oder Dokumentation geprüft:</p>
+<table><tr><th>Bank / Dienst</th><th>Hinweis</th></tr>
+<tr><td>Sparkasse</td><td>Variante „CSV-CAMT“; je nach Institut gibt es mehrere Exportformate.</td></tr>
+<tr><td>ING</td><td>Vorspann über der Tabelle wird erkannt.</td></tr>
+<tr><td>DKB</td><td>Eine dokumentierte Variante; neue Exportformate können abweichen.</td></tr>
+<tr><td>comdirect</td><td>Spalten historisch belegt; Kodierung und Variante nicht in jedem Fall verifiziert. Vorgemerkte Umsätze ohne Datum werden übersprungen.</td></tr>
+<tr><td>Volksbank / VR</td><td>Beispielvariante geprüft; Layouts können je Bank abweichen.</td></tr>
+<tr><td>Postbank</td><td>Umsatzübersicht als CSV.</td></tr>
+<tr><td>Commerzbank</td><td>Umsatzübersicht als CSV; Gegenpartei und Zweck stehen gemeinsam im Buchungstext.</td></tr>
+<tr><td>PayPal</td><td>Englischer „Activity Download“; verwendet wird der Nettobetrag. Währung und Status prüfen.</td></tr></table>
+<p>Die Erkennung gilt für bestimmte Exportvarianten, nicht für alle Produkte einer Bank. Banken ändern ihre Exporte gelegentlich; „verifiziert“ ist keine Garantie für jedes Konto.</p>
+</section>
+<section class="card doc-section"><h2>Exporthinweise ohne Menüpfade</h2>
+<p>Wo genau die Export-Funktion liegt, unterscheidet sich je Bank und ändert sich. Meist findest du sie in der Umsatzübersicht deines Kontos im Online-Banking im Browser, nicht in der Handy-App. Suche in der Hilfe deiner Bank nach „Umsätze exportieren“ oder „CSV“. Andere Banken und Excel-Dateien funktionieren oft über die manuelle Spaltenzuordnung, können aber etwas Vorbereitung brauchen.</p>
+</section>
+<section class="card doc-section"><h2>Typische Stolpersteine</h2>
+<ul><li><b>Vorzeichen:</b> Manche Exporte zeigen Ausgaben positiv. Prüfe die Vorschau; die Vorzeichen lassen sich beim Import umkehren.</li>
+<li><b>Dezimalzeichen und Datum:</b> Komma oder Punkt, TT.MM.JJJJ oder anderes Format – in der erweiterten Zuordnung einstellbar.</li>
+<li><b>Kodierung:</b> UTF-8, UTF-16 mit Kennung und ersatzweise Windows-1252 werden gelesen. Sonderzeichen in der Vorschau kontrollieren.</li>
+<li><b>Währung:</b> Ein Buch hat eine Währung, es wird nichts umgerechnet. Mehrwährungsdateien vorher trennen.</li>
+<li><b>Doppelte Importe:</b> Bereits vorhandene Buchungen werden markiert; einzelne Zeilen kannst du abwählen.</li></ul>
+<p>Ordnest du Importzeilen einer Kategorie zu, merkt sich Monatsklar das für den Empfänger und ordnet beim nächsten Import automatisch zu.</p>
+</section>
+<section class="card doc-section"><h2>Mehr zum Thema</h2>
+<p>Die Schritte im Detail stehen in der <a href="support.html#import">Hilfe zum Bank-Import</a>. Wie dein Buch lokal liegt und gesichert wird: <a href="haushaltsbuch-windows-offline.html">Haushaltsbuch für Windows, offline</a>.</p>
+</section>
+<section class="card doc-section"><p><a class="btn" href="https://apps.microsoft.com/detail/9N6JM2J3LC27?hl=de-DE&amp;gl=DE" target="_blank" rel="noopener">Monatsklar im Microsoft Store ansehen</a></p>
+<p class="note">Weiterlesen: <a href="support.html#import">Hilfe: Bank-Import</a> · <a href="haushaltsbuch-windows-offline.html">Offline auf dem PC</a> · <a href="haushaltsbuch-ohne-abo.html">Ohne Abo</a></p>
+<p class="note">Bank- und Dienstnamen sind Marken ihrer jeweiligen Inhaber. Zwischen Monatsklar und diesen Unternehmen besteht keine Partnerschaft und keine Verbindung.</p>
+<p class="note">Monatsklar bietet keine Finanz-, Steuer- oder Anlageberatung. Die App erfasst und wertet aus; Entscheidungen triffst du selbst.</p></section>
+</div>
+</main>
+<footer class="wrap footer">
+<a href="./">Monatsklar</a>·<a href="support.html">Support</a>·<a href="privacy.html">Datenschutz</a>·<a href="impressum.html">Impressum</a>
+<p>© 2026 Minh Studios · Michel Nguyen</p>
+<p>Keine Cookies, keine Tracker, keine externen Skripte.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#1F6F5C">
+<title>Budget App with Bank CSV Import for Windows · Monatsklar</title>
+<meta name="description" content="Import bank transactions from CSV into a Windows budget app: verified export variants for Chase, Bank of America, Capital One, Lloyds, NatWest, Starling and PayPal.">
+<link rel="canonical" href="https://minh.systems/Monatsklar/en/bank-csv-import-budget-app.html">
+<link rel="alternate" hreflang="de" href="https://minh.systems/Monatsklar/haushaltsbuch-csv-import.html">
+<link rel="alternate" hreflang="en" href="https://minh.systems/Monatsklar/en/bank-csv-import-budget-app.html">
+<link rel="alternate" hreflang="x-default" href="https://minh.systems/Monatsklar/haushaltsbuch-csv-import.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Monatsklar">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:title" content="Budget App with Bank CSV Import for Windows · Monatsklar">
+<meta property="og:description" content="Import bank transactions from CSV into a Windows budget app: verified export variants for Chase, Bank of America, Capital One, Lloyds, NatWest, Starling and PayPal.">
+<meta property="og:url" content="https://minh.systems/Monatsklar/en/bank-csv-import-budget-app.html">
+<meta property="og:image" content="https://minh.systems/Monatsklar/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Monatsklar – budget app for Windows">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Budget App with Bank CSV Import for Windows · Monatsklar">
+<meta name="twitter:description" content="Import bank transactions from CSV into a Windows budget app: verified export variants for Chase, Bank of America, Capital One, Lloyds, NatWest, Starling and PayPal.">
+<meta name="twitter:image" content="https://minh.systems/Monatsklar/img/og.png">
+<link rel="icon" href="../favicon.png">
+<link rel="apple-touch-icon" href="../img/logo.png">
+<link rel="stylesheet" href="../style.css?v=3">
+<script src="../site.js" defer></script>
+</head>
+<body class="document-page">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><nav aria-label="Navigation" class="wrap">
+<a class="brand" href="./"><img alt="" height="36" src="../img/logo.png" width="36"/><span>Monatsklar<small>Budget book for Windows</small></span></a>
+<div class="links">
+<a href="./#funktionen">Features</a>
+<a href="support.html">Help &amp; support</a>
+<a class="lang" href="../haushaltsbuch-csv-import.html" hreflang="de" lang="de" aria-label="Zu Deutsch wechseln">DE</a>
+</div>
+</nav></header>
+<main id="main">
+<div class="wrap doc">
+<div class="doc-head">
+<h1>Import bank transactions from CSV into your budget</h1>
+<p class="lead">Monatsklar does not connect to your bank. You export transactions as a CSV file and read them in locally, with no online banking credentials.</p>
+</div>
+<section class="card doc-section"><h2>How the import works</h2>
+<ol><li>In your bank’s online banking in a browser, export your transactions as CSV (choose the period, use the export or download function).</li>
+<li>In Monatsklar open “Bank import” (<kbd>Ctrl</kbd>+<kbd>8</kbd>) and drag the file in.</li>
+<li>If the format is recognised, Monatsklar says so. Otherwise you map date and amount (optionally payee and description) once and save an import profile.</li>
+<li>Pick the target account, check the preview, import. Entries that already exist are marked “already present”.</li></ol>
+</section>
+<section class="card doc-section"><h2>Verified US, UK and PayPal formats</h2>
+<p>For these, a specific export variant was checked against a published sample file, importer code or documentation:</p>
+<table><tr><th>Bank / service</th><th>Note</th></tr>
+<tr><td>Chase</td><td>Checking and credit card variants; credit card import uses the post date.</td></tr>
+<tr><td>Bank of America</td><td>Checking variant (<code>Date, Description, Amount, Running Bal.</code>).</td></tr>
+<tr><td>Capital One</td><td>Credit card variant with separate debit and credit columns.</td></tr>
+<tr><td>Lloyds</td><td>Separate debit and credit amount columns, DD/MM/YYYY.</td></tr>
+<tr><td>NatWest</td><td>Signed value column, DD/MM/YYYY.</td></tr>
+<tr><td>Starling</td><td>Signed amount column.</td></tr>
+<tr><td>PayPal</td><td>English activity download; the net amount is used. Check currency and status.</td></tr></table>
+<p>Recognition applies to specific export variants, not to every product a bank offers. Banks change their exports from time to time; “verified” is no guarantee for every account. German bank formats are supported as well – see the <a href="../haushaltsbuch-csv-import.html" hreflang="de" lang="de">German page</a>.</p>
+</section>
+<section class="card doc-section"><h2>General export tips</h2>
+<p>Where the export function sits differs by bank and changes over time. It is usually in the transaction list of your account in browser-based online banking rather than the phone app. Search your bank’s help for “export transactions” or “CSV”. Other banks and spreadsheet files often work through manual column mapping but may need some preparation.</p>
+</section>
+<section class="card doc-section"><h2>Common pitfalls</h2>
+<ul><li><b>Signs:</b> some exports show card spending as positive amounts. Check the preview; signs can be inverted during import.</li>
+<li><b>Decimal separator and dates:</b> comma or point, DD/MM or MM/DD – adjustable in the advanced mapping. Slash dates are ambiguous, so check them before importing.</li>
+<li><b>Encoding:</b> UTF-8, UTF-16 with a byte-order mark and, as a fallback, Windows-1252 are read. Check special characters in the preview.</li>
+<li><b>Currency:</b> one book has one currency and nothing is converted. Split multi-currency files first.</li>
+<li><b>Re-imports:</b> entries that already exist are marked; you can untick single rows.</li></ul>
+<p>When you assign imported rows to a category, Monatsklar remembers it for that payee and assigns it automatically next time.</p>
+</section>
+<section class="card doc-section"><h2>More</h2>
+<p>Step-by-step details are in the <a href="support.html#import">bank import help</a>. How your book is stored and backed up: <a href="offline-expense-tracker-windows.html">offline expense tracker for Windows</a>.</p>
+</section>
+<section class="card doc-section"><p><a class="btn" href="https://apps.microsoft.com/detail/9N6JM2J3LC27?hl=en-US&amp;gl=US" target="_blank" rel="noopener">View Monatsklar in the Microsoft Store</a></p>
+<p class="note">Related: <a href="support.html#import">Help: bank import</a> · <a href="offline-expense-tracker-windows.html">Offline on your PC</a> · <a href="budget-app-windows-no-subscription.html">No subscription</a></p>
+<p class="note">Bank and service names are trademarks of their respective owners. Monatsklar has no partnership or affiliation with these companies.</p>
+<p class="note">Monatsklar does not provide financial, tax or investment advice. The app records and summarises; decisions stay with you.</p></section>
+</div>
+</main>
+<footer class="wrap footer">
+<a href="./">Monatsklar</a>·<a href="support.html">Support</a>·<a href="privacy.html">Privacy</a>·<a href="impressum.html">Legal notice</a>
+<p>© 2026 Minh Studios · Michel Nguyen</p>
+<p>No cookies, no trackers, no external scripts.</p>
+</footer>
+</body>
+</html>
