@@ -41,7 +41,7 @@ nav.wrap{min-height:88px;display:flex;align-items:center;justify-content:space-b
 .lead{font-size:17px;line-height:1.8;margin:26px 0 29px;max-width:440px}
 .actions{display:flex;align-items:center;gap:23px;flex-wrap:wrap}
 .msbadge{display:inline-flex;flex-shrink:0;text-decoration:none;border-radius:8px}
-.msbadge svg{width:196px;height:auto;display:block}
+.msbadge img{height:48px;width:auto;display:block}
 .msbadge:hover{filter:brightness(1.18)}
 .text-link{font-size:14px;font-weight:650;text-decoration:none;display:inline-flex;gap:10px;align-items:center}
 .text-link span[aria-hidden]{font-size:20px}
@@ -235,7 +235,7 @@ figcaption{font-size:12px;display:block;margin-top:15px}
 .brand img{width:34px;height:34px}
 .hero h1{font-size:38px}
 .actions{gap:17px}
-.actions .msbadge svg{width:177px}
+
 .text-link{font-size:12px}
 .feature-grid{grid-template-columns:1fr}
 .feature-card{padding:25px}
@@ -262,8 +262,3 @@ figcaption{font-size:12px;display:block;margin-top:15px}
 
 .window-bar img{width:16px;height:16px;flex-shrink:0}
 .doc table th:first-child{width:32%}
-.msbadge{width:196px;min-height:48px;padding:7px 14px;gap:14px;align-items:center;border:1px solid #8D8D8D;background:#000;color:#fff;border-radius:7px;line-height:1.1;font-family:"Segoe UI",system-ui,sans-serif}
-.msbadge svg{width:26px;height:26px}
-.msbadge small{display:block;font-size:10px;letter-spacing:0;font-weight:400;margin-bottom:2px}
-.msbadge strong{display:block;font-size:18px;letter-spacing:-.025em;font-weight:600}
-@media(max-width:400px){.actions .msbadge{width:177px;padding-inline:11px;gap:12px}.actions .msbadge svg{width:25px;height:25px}}
